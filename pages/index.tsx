@@ -6,8 +6,9 @@ import ThemeUpdater from "../src/Components/ThemeUpdater";
 const Home: NextPage = () => {
       return (
             <main>
-                  <PageTitle />
-                  <ThemeUpdater />
+                  <div>Welcome</div>
             </main>
       );
 };
+
+export default Home;
